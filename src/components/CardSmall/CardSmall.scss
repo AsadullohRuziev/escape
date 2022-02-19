@@ -1,0 +1,41 @@
+.cardSmall {
+    margin-top: 25px;
+
+    background-color: #fff;
+  width: 30%;
+  .card__image {
+    width: 100%;
+  }
+  .card__content {
+    h4 {
+      font-family: Lora;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 21px;
+      margin-top: 14px;
+      margin-bottom: 6px;
+      margin-left: 13px;
+    }
+    p{
+        margin-bottom: 32px;
+      margin-left: 13px;
+
+    }
+    hr{
+        color: #EFEFEF;
+    }
+    .person{
+        height: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      margin-left: 13px;
+      p{
+          margin-top: 20px;
+          margin-right: 30px;
+      }
+    }
+
+  }
+}
